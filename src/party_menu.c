@@ -509,7 +509,7 @@ static void Task_HandleWhichMoveInput(u8 taskId);
 
 // static const data
 #include "data/party_menu.h"
-
+#include <stdbool.h>
 // code
 static void InitPartyMenu(u8 menuType, u8 layout, u8 partyAction, bool8 keepCursorPos, u8 messageId, TaskFunc task, MainCallback callback)
 {
